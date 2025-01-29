@@ -1,7 +1,29 @@
 
 .title-card {
+    position: relative;
     background-image: url('images/emergency_plumbing_cropped.jpg');
     height : 715px;
+}
+
+.banner {
+    background-color: #101010B2;
+    height : 94px;
+    width : 100%;
+}
+
+.title-words-big{
+    display: grid;
+    position:absolute;
+    bottom: 0;
+    height : 566px;
+    width : 100%;
+}
+
+.title-words-small{
+    display: flex;
+    height : 282px;
+    width : 1312px;
+    margin: auto;
 }
 
 .our-services {
@@ -28,6 +50,7 @@
     background-image: url('images/plumber_at_sink.jpg');
     height : 717px;
 }
+
 
 body {
       margin : 0;
