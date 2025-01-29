@@ -1,0 +1,35 @@
+
+.title-card {
+    background-image: url('images/emergency_plumbing_cropped.jpg');
+    height : 715px;
+}
+
+.our-services {
+    background-color: #1E1E1E;
+    height : 819px;
+}
+
+.why-us {
+    background-color: #F7F7F7;
+    height : 563px;
+}
+
+.our-reviews {
+    background-color: #1E1E1E;
+    height : 869px;
+}
+
+.service-areas {
+    background-color: #F7F7F7;
+    height : 1286px;
+}
+
+.tail-card {
+    background-image: url('images/plumber_at_sink.jpg');
+    height : 717px;
+}
+
+body {
+      margin : 0;
+      padding : 0;
+  }
