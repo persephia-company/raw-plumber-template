@@ -1,6 +1,6 @@
 # Raw Plumber Template
 
-This repository contains a template website, written using raw markup languages. The website design has been informed by the below Sigma designs.
+This repository contains a template website, written with HTML and CSS. The website design has been informed by the below Sigma designs.
 
 [Laptop Prototype](https://www.figma.com/proto/8Iiecf64LUBNCEoZx74MlQ/Trade-Website-Homepage-Prototype_Desktop?page-id=0%3A1&node-id=1-601&viewport=335%2C223%2C0.37&t=tpAeDxRF1NkWiXHO-1&scaling=scale-down&content-scaling=fixed)
 
