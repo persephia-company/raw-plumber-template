@@ -1,57 +1,177 @@
 <!-- Raw Plumber Website Template: Written with HTML/CSS -->
-<!DOCTYPE html>
+<!doctype html>
 
-<html lang = "en-AU">
+<html lang="en-AU">
+  <head>
+    <title>Plumbers, Brisbane.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
 
-<head>
-    <title>
-        Plumbers, Brisbane.
-    </title>
-    <link rel = "stylesheet", href = "styles.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto' 
-    rel='stylesheet' type='text/css'>
-    <style> 
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-    </style>
+  <body>
+    <section class="hero section">
+      <!--Background image-->
+      <header>
+        <section class="container header">
+          <div>LOGO</div>
+          <nav class="header-nav">
+            <ul>
+              <li class="header-nav-item">
+                <a href="/about">About</a>
+              </li>
 
-</head>
+              <li class="header-nav-item">
+                <a href="/service-areas">Areas</a>
+              </li>
 
-<body>
+              <!--Lets ignore dropdowns for now -->
+              <li class="header-nav-item">
+                <a href="/services">Services</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="tel:0412345678">04 1234 5678</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </header>
 
-    <div class = "title-card">
-        
-        <div class = "banner">
-        </div>
+      <!-- Remove some nesting -->
+      <section class="container">
+        <h1 class="title">PLUMBERS, BRISBANE.</h1>
+        <p>Have a leak? Let us fix it.</p>
+        <button class="btn-primary">Request Quote</button>
+      </section>
+    </section>
 
-        <div class = "title-words-big">
+    <section class="section container our-services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>
+          <img src="images/plumber_at_sink.jpg" class="service-image"/>
+          <p class="service-card-title">Installation and Removal</p>
 
-            <div class = "title-words-small">
-                <h1 style = "font-weight: 600; size: 88px; color: #F7F7F7;">PLUMBERS, BRISBANE.</h1>
-            </div>
+          <p>
+            Installing and removing plumbing systems for homes or businesses,
+            including pipes, fixtures, water heaters and drainage, while
+            ensuring compliance.
+          </p>
+          <a href="#" class="btn-secondary">View more</a>
+        </li>
 
-        </div>
+        <li>
+          <img src="images/plumber_at_sink.jpg" class="service-image" />
+          <p class="service-card-title">Repairs and Maintenance</p>
 
-    </div>
+          <p>
+            Repairing leaks, clogs, pipes, and fixtures, maintaining systems
+            with inspections and cleanings, and fixing water heaters, faucets,
+            etc
+          </p>
+          <a href="#" class="btn-secondary">View more</a>
+        </li>
 
-    
-    <div class = "our-services">
-    </div>
+        <li>
+          <img src="images/plumber_at_sink.jpg" class="service-image" //>
+          <p class="service-card-title">Emergencies</p>
 
-    <div class = "why-us">
-    </div>
+          <p>
+            Installing and removing plumbing systems for homes or businesses,
+            including pipes, fixtures, water heaters and drainage, while
+            ensuring compliance.
+          </p>
+          <a href="#" class="btn-secondary">View more</a>
+        </li>
+      </ul>
+    </section>
 
-    <div class = "our-reviews">
-    </div>
+    <section class="why-us">
+      <h2>Why us?</h2>
+      <ul>
+        <li>
+          <h3>Fast and Reliable</h3>
+          <p>
+            24/7 emergency response and quick solutions to minimize downtime and
+            damage.
+          </p>
+        </li>
+        <li>
+          <h3>Experienced Professionals</h3>
+          <p>
+            Skilled, licensed plumbers delivering quality work with attention to
+            detail.
+          </p>
+        </li>
+        <li>
+          <h3>Transparent Pricing</h3>
+          <p>
+            Upfront, competitive pricing with no hidden fees, ensuring trust and
+            value.
+          </p>
+        </li>
+      </ul>
+      <a href="#" class="btn-secondary">More about us</a>
+    </section>
 
-    <div class = "service-areas">
-    </div>
+    <section class="our-reviews"></section>
 
-    <div class = "tail-card">
-    </div>
+    <section class="service-areas"></section>
 
+    <footer class="tail-card">
+      <h2>Reliable plumbing, because every drop counts.</h2>
 
-</body>
+      <section class="quick-links">
+        <h3>Quick Links</h3>
+        <nav>
+          <ul>
+            <li>
+              <a class="footer-link">Services</a>
+              <a class="footer-link">Licenses & Certifications</a>
+              <a class="footer-link">Reviews</a>
+              <a class="footer-link">About</a>
+              <a class="footer-link">Locations/Service Areas</a>
+            </li>
+          </ul>
+        </nav>
 
+        <section class="contact-details">
+          <h3>Contact Details</h3>
+          <ul>
+            <li>
+              <a class="footer-link">contact@brisbaneplumbing.com</a>
+            </li>
+            <li>
+              <a class="footer-link" href="tel:0412345678">0412 345 678</a>
+            </li>
+            <li>12 Riverbank Cresent, Ashgrove</li>
+            <li>9:00am - 5:00pm, Monday - Friday</li>
+          </ul>
+        </section>
+
+        <section class="socials">
+          <img />
+
+          <nav>
+            <a href="#"> Insta </a>
+            <a href="#"> Facebook </a>
+            <a href="#"> Youtube </a>
+          </nav>
+        </section>
+      </section>
+
+      <hr />
+
+      <section class="footer-bottom">
+        <nav>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </nav>
+        <span>Made by Persephia</span>
+      </section>
+    </footer>
+  </body>
 </html>

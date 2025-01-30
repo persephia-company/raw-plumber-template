@@ -1,49 +1,120 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 
-.title-card {
+body {
+  font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+/* Useful for getting rid of default styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    font-size: 3rem; /* Prefer to static width for fonts and sometimes padding */
+    line-height: 1;  
+    font-weight: 600; 
+    color: #f7f7f7
+}
+
+h2 {
+    font-size: 2.25rem; /* Prefer to static width for fonts and sometimes padding */
+    line-height: 2.5rem;
+}
+
+header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.header {
+  color: white;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.header-nav-item {
+}
+
+.hero-content {
+
+}
+
+.section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hero {
+    height: 500px;
     position: relative;
-    background-image: url('images/emergency_plumbing_cropped.jpg');
-    height : 715px;
-}
-
-.banner {
-    background-color: #101010B2;
-    height : 94px;
-    width : 100%;
-}
-
-.title-words-big{
-    display: grid;
-    position:absolute;
-    bottom: 0;
-    height : 566px;
-    width : 100%;
-}
-
-.title-words-small{
     display: flex;
-    height : 282px;
-    width : 1312px;
-    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-image: url('images/emergency_plumbing_cropped.jpg');
 }
+
 
 .our-services {
     background-color: #1E1E1E;
-    height : 819px;
+    color: white;
+}
+
+.service-image {
+  width: 200px;
 }
 
 .why-us {
     background-color: #F7F7F7;
-    height : 563px;
 }
 
 .our-reviews {
     background-color: #1E1E1E;
-    height : 869px;
 }
 
 .service-areas {
     background-color: #F7F7F7;
-    height : 1286px;
 }
 
 .tail-card {
@@ -51,8 +122,3 @@
     height : 717px;
 }
 
-
-body {
-      margin : 0;
-      padding : 0;
-  }
